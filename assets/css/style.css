@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: 3a3a3a;
+}
+
+.header {
+background-color: #FFBDD7E5;
+position:fixed;
+top: 0;
+right: 0;
+left: 0;
+max-height: 10%;
+display: flex;
+justify-content: space-between;
+}
+
+h1, h2 {
+    color: #252525;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#logo {
+    text-decoration: none;
+    padding: 10px;
+    float: left;
+}
+
+#menue {
+    letter-spacing: 2px;
+    font-size: 110%;
+}
+
+#menue li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    padding-top: 15px;
+}
+
+#menue a {
+    color: inherit;
+}
