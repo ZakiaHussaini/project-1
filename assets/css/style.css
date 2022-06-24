@@ -12,29 +12,37 @@ body {
     font-weight: 300;
     color: 3a3a3a;
 }
-
+/* header and logo style */
 .header {
 background-color: #FFBDD7E5;
 position:fixed;
 top: 0;
 right: 0;
 left: 0;
-max-height: 10%;
+max-height: 15%;
 display: flex;
 justify-content: space-between;
 }
 
 h1, h2 {
-    color: #252525;
+   font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
+    color: #252525;
 }
 
 #logo {
     text-decoration: none;
     padding: 10px;
     float: left;
+    font-size: 280%;
 }
+
+#yoga {
+    color: blue;
+}
+
+/* navigation link */
 
 #menue {
     letter-spacing: 2px;
