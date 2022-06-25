@@ -149,13 +149,19 @@ hr {
 }
 
 .class-heading {
-    width: 60%;
+    width: 80%;
     text-align: center;
     margin: 0 auto;
     clear: both;
     line-height: 20px;
+    margin-bottom: 50px; 
 }
 
+#about-course {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 250%;
+}
 
 
 
