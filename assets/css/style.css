@@ -35,6 +35,7 @@ h1, h2 {
     text-decoration: none;
     padding: 10px;
     float: left;
+    margin-left: 10px;
     font-size: 280%;
 }
 
@@ -60,18 +61,19 @@ h1, h2 {
 }
 
 #menue a {
-    color: inherit;
+    color: black
 }
 
 #menue a:hover{
     border-bottom: 1px solid #3a3a3a;
+    color: blue;
 }
 
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero images */
+/* hero images  and about-text */
 
 #hero-image {
     height: 600px;
@@ -83,16 +85,24 @@ h1, h2 {
 
 #about-text {
     width: 300px;
-    height: 250px;
-    background-color: rgba(135, 206, 250, 0.6);
+    height: 200px;
+    background-color: rgba(135, 206, 250, 0.7);
     position: absolute;
     left: 20%;
-    top: 35%;
+    top: 40%;
     animation-name: about-zoom;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
+    font-size: 100%;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    padding-top: 30px;
+    padding-left: 10px;
 }
 
+#about-text , #about-text h2 {
+    color: #252525;
+}
 /* create zoom effect for about-text */
 
 @keyframes about-zoom {
@@ -104,10 +114,33 @@ to {
 }
 }
 
+/* classes */
 
+#classes {
+    height: 600px;
+}
 
+#first-class {
+    padding-top: 30px;
+    float: left;
+    width: 33%;
+    background-color: yellow;
+}
 
+#second-class {
+    background-color: green;
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    margin: 0 auto;
+}
 
+#third-class {
+    padding-top: 30px;
+    width:33%;
+    float: right;
+    background-color: red;
+}
 
 
 
