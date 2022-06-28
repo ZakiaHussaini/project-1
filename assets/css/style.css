@@ -8,19 +8,16 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
     color: 3a3a3a;
 }
 /* header and logo style */
 .header {
-background-color: rgba(184, 165, 148, 0.3);
-position:fixed;
 top: 0;
 right: 0;
 left: 0;
 max-height: 15%;
-display: flex;
 justify-content: space-between;
 }
 
@@ -47,7 +44,7 @@ h1, h2 {
 
 #menue {
     letter-spacing: 2px;
-    font-size: 110%;
+    font-size: 150%;
 }
 
 #menue, #logo{
@@ -294,3 +291,51 @@ footer > h2 {
 #contact-info {
     margin: 0 auto;
 }
+
+
+/* footer */
+
+footer {
+    height: 250px;
+}
+
+footer > h2 {
+    text-align: center;
+}
+
+#contact-info {
+    text-align: center;
+}
+
+#contact-info h3 {
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.social-networks {
+    text-align: center;
+    margin: 30px;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks a {
+    font-size: 160%;
+    padding: 20px;
+    margin-top: 40px;
+    color: #3a3a3a;
+
+}
+
+
+
+
+
+
+
+
+
+
+
