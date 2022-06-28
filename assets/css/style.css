@@ -17,8 +17,11 @@ body {
 top: 0;
 right: 0;
 left: 0;
-max-height: 15%;
+height: 90px;
 justify-content: space-between;
+/* background-color: rgb(175, 209, 234); */
+overflow: hidden;
+
 }
 
 h1, h2 {
@@ -37,7 +40,7 @@ h1, h2 {
 }
 
 #yoga {
-    color: blue;
+    color: yellowgreen;
 }
 
 /* navigation link */
@@ -58,17 +61,17 @@ h1, h2 {
 }
 
 #menue a {
-    color: black
+    color: black;
+    font-weight: bold;
+    
 }
 
 #menue a:hover{
     border-bottom: 1px solid #3a3a3a;
-    color: blue;
+    color: yellowgreen;
 }
 
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
+
 
 /* hero images  and about-text */
 
@@ -77,28 +80,35 @@ h1, h2 {
     width: 100%;
     background: url("../images/hero-img.jpg") no-repeat center center;
     background-size: cover;
+    animation-name: about-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
+#hero-outer {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
 
 #about-text {
     width: 300px;
     height: 200px;
-    background-color: rgba(135, 206, 250, 0.7);
+    background-color: rgba(154, 205, 50, 0.5);
     position: absolute;
     left: 20%;
     top: 40%;
-    animation-name: about-zoom;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards;
+    
     font-size: 100%;
     font-family: 'Oswald', sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     padding-top: 30px;
     padding-left: 10px;
 }
 
 #about-text , #about-text h2 {
-    color: #252525;
+    color: black;
 }
 /* create zoom effect for about-text */
 
@@ -125,6 +135,10 @@ to {
 #about-yoga h1 {
 margin: 30px;
 text-align: center;
+color: chocolate;
+/* color: rgba(145, 204, 26, 0.836); */
+font-size: 180%;
+font-weight: bold;
 }
 
 
@@ -147,9 +161,14 @@ text-align: center;
     width: 80%;
 }
 
-#about-yoga div hr {
-    color: yellowgreen;
+#about-yoga h2 {
+    font-size: 130%;
 }
+
+#about-yoga p {
+    font-size: 100%;
+}
+
 
 /* classes */
 
