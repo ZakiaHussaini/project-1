@@ -119,14 +119,39 @@ to {
 #about {
     height: 600px;
     width: 100%;
-    background-color: yellowgreen;
 }
+
+#about div {
+    display: inline-block;
+}
+
+#about-yoga h1 {
+margin: 30px;
+text-align: center;
+}
+
 
 #about-image {
     background: url("../images/white.jpg") no-repeat center center;
     background-size: cover;
     width: 40%;
     height: 580px;
+    margin: 0 auto;
+}
+
+#about-yoga {
+    width: 50%;
+    position: absolute;
+    height: 580px;
+}
+
+#about-yoga div{
+    margin: 20px;
+    width: 80%;
+}
+
+#about-yoga div hr {
+    color: yellowgreen;
 }
 
 /* classes */
