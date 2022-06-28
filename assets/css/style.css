@@ -17,7 +17,7 @@ body {
 top: 0;
 right: 0;
 left: 0;
-height: 90px;
+height: 100px;
 justify-content: space-between;
 /* background-color: rgb(175, 209, 234); */
 overflow: hidden;
@@ -31,15 +31,16 @@ h1, h2 {
     color: #252525;
 }
 
+
+
 #logo {
     text-decoration: none;
-    padding: 10px;
     float: left;
-    margin-left: 10px;
+    padding-left: 30px;
     font-size: 280%;
 }
 
-#yoga {
+.green-logo {
     color: yellowgreen;
 }
 
@@ -135,8 +136,7 @@ to {
 #about-yoga h1 {
 margin: 30px;
 text-align: center;
-color: chocolate;
-/* color: rgba(145, 204, 26, 0.836); */
+color: black;
 font-size: 180%;
 font-weight: bold;
 }
@@ -163,10 +163,12 @@ font-weight: bold;
 
 #about-yoga h2 {
     font-size: 130%;
+    color:#3a3a3a;
 }
 
 #about-yoga p {
-    font-size: 100%;
+    font-size: 130%;
+    color: gray;
 }
 
 
@@ -176,8 +178,8 @@ font-weight: bold;
     height: 600px;
 }
  
-#classes div{
-    background-color: rgba(157, 181, 215, 0.8);
+.class-info{
+    background-color: yellowgreen;
 
 }
 
@@ -219,7 +221,7 @@ font-weight: bold;
 }
 
 hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid yellowgreen;
     width: 100%;
     margin: 4px;
 }
@@ -244,6 +246,7 @@ hr {
     text-align: center;
     margin: 20px 0;
     font-size: 250%;
+    color: yellowgreen;
 }
 
 #classes h2 {
@@ -284,10 +287,19 @@ hr {
     margin: 10px;
 }
 
+.text-input:hover {
+    border: 1px solid gray;
+}
+
 #message {
     display: block;
     border: 1px solid yellowgreen;
     margin: 10px;
+}
+
+#message:hover {
+    border: 1px solid gray;
+
 }
 
 #submit-button {
@@ -300,26 +312,25 @@ hr {
     font-size: 100%;
 }
 
-/* footer section */
-
-footer > h2 {
-    text-align: center;
-    margin-bottom: 15px;
+#submit-button:hover {
+    background-color: yellowgreen;
+    border: 1px solid gray;
 }
 
-#contact-info {
-    margin: 0 auto;
-}
 
 
 /* footer */
 
 footer {
     height: 250px;
+    background-color: yellowgreen;
 }
 
 footer > h2 {
     text-align: center;
+    padding-top: 20px;
+    margin-bottom: 15px;
+
 }
 
 #contact-info {
