@@ -179,8 +179,8 @@ font-weight: bold;
 }
  
 .class-info{
-    background-color: yellowgreen;
-
+    background-color: rgba(154, 205, 50, 0.7);
+    text-align: center;
 }
 
 #first-class {
@@ -221,8 +221,8 @@ font-weight: bold;
 }
 
 hr {
-    border-top: 1px solid yellowgreen;
-    width: 100%;
+    border-top: 1px solid #3a3a3a;
+    width: 90%;
     margin: 4px;
 }
 
