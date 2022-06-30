@@ -229,6 +229,7 @@ hr {
 
 .class-heading {
     width: 80%;
+    position: relative;
     text-align: left;
     margin-top: 275px;
     clear: both;
@@ -387,9 +388,28 @@ footer > h2 {
         font-size: 150%;
     }
 
+
+    #classes {
+        padding: 0;
+        width: 60%;
+        height: 1100px;
+        margin: 0 auto;
+    }
     #classes > div {
         width: 100%;
-        height: 200px;
+        height: 400px;
+        margin: 40px;
+        float: left;
+        text-align: center;
+    }
+
+    .class-heading {
+        margin-left: 35px;
+    }
+
+    #about-course {
+        margin: 0;
+        padding: 0;
     }
 
 }
