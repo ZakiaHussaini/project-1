@@ -477,20 +477,43 @@ footer > h2 {
     }
 
     #classes {
-        width: 96%;
+        
+        width: 80%;
         height: 1200px;
-        margin: 0 auto;
+        margin-left: 0;
+        clear: both;
     }    
 
     #classes div {
-        width: 90%;
+        width: 100%;
     }
 
+    .class-heading {
+       margin-left: 0;
+       padding-left: 0;
+       margin-top: 237px;
+    }
    
-
+    #signup {
+        height: 850px;
+    }
+footer {
+    height: 550px;
+}
 
 }
 
+
+/* for medium screen sizes from 950px and down */
+@media screen and (max-width: 850px ){
+#about {
+    width: 100%;
+}
+#about-image {
+    width: 100%;
+}
+
+}
 
 
 
