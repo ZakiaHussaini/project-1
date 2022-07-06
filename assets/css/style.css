@@ -503,13 +503,24 @@ footer {
 
 }
 
+/* for desktop size 1600px */
+@media screen and (min-width: 1600px) {
+    #hero-image {
+        height: 1400px;
+    }
+
+    #about {
+        height: 1400px;
+    }
+}
+
 
 /* for medium screen sizes from 950px and down */
 @media screen and (max-width: 850px ){
 #about {
     width: 100%;
 }
-#about-image {
+#about {
     width: 100%;
 }
 
